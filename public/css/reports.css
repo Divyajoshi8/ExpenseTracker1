@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.editDelete {
+  float: right;
+  margin: 3px;
+  padding: 3px 10px;
+}
+#png {
+  margin-right: 10px;
+}
+#navigation {
+  background-color: #1C1C1C;
+}
+#form1 {
+  border-radius: 10px;
+  background-color: #3d5a80;
+  box-shadow: 4px 4px 9px #293241;
+  margin: 20px 193px;
+}
+#table {
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+#submitBtn {
+    width: 140px;
+    background-color: #1C1C1C;
+    border-color: #1C1C1C;
+    color: white;
+}
+.showBtn {
+  width: 100px;
+  background-color: #1C1C1C;
+  border-color: #1C1C1C;
+  color: white;
+}
+.topBtn {
+    background-color: white;
+    border-color: white;
+    color: #1C1C1C;
+}
+#year-input {
+  background-color: white;
+  width: auto;
+  border: 1px;
+  border-radius: 7px;
+  color: #1C1C1C;
+  padding: 7px;
+  margin: 7px -4px;
+}
+#categoryBtn {
+  background-color: #1C1C1C;
+  width: auto;
+  border-radius: 7px;
+  border: none;
+  color: white;
+}
+#category {
+  width: 300px;
+}
+.input-group-text {
+  background-color: #1C1C1C;
+  color: white;
+  border: none;
+}
+#description {
+  width: 2000px;
+}
+
+.trStyle {
+  background-color: transparent;
+}
+#categoryBtn:hover,
+#submitBtn:hover,
+.editDelete:hover,
+.showBtn:hover {
+    background-color: #E6E6E6;
+    color: black;
+    border-color: black;
+}
+.topBtn:hover {
+    background-color: #E6E6E6;
+    color: black;
+    border-color: #E6E6E6;
+}
+.editDelete {
+    background-color: black;
+    border: none;
+}
+
+#dailyTotal,
+#dailyTotalAmount,
+#monthlyTotal,
+#monthlyTotalAmount {
+  font-weight: bolder !important;
+}
